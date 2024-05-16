@@ -3,8 +3,8 @@
 //imprimir seu valor na tela.
 
 //dou valor de A e B, crio a variavel C para herdar o resultado da função
-const A = 10;
-const B = 20;
+const A = (Number(prompt('Digite um numero:')));
+const B = (Number(prompt('Digite um numero:')));
 var C;
 
 function teste (n1, n2) {

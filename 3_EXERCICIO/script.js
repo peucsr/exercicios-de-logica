@@ -1,7 +1,7 @@
 // - Faça um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa, leia o seu peso e sua altura e imprima na tela sua condição
 
-const peso = 64;
-const altura = 1.72;
+const peso = (Number(prompt('Seu peso é:')));
+const altura = (Number(prompt('Sua altura é:')));
 var IMC;
 
 // calculo do IMC, transferindo valor do resultado para uma constante pra ser usada nas condicionais
